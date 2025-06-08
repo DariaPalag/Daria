@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Индивидуальный проект: Google-сайт</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #eaf2f8, #ffffff);
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #1a5276;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      margin: 40px 0 20px;
+    }
+
+    a {
+      color: #1f618d;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #117a8b;
+      text-decoration: underline;
+    }
+
+    .section {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 40px;
+      transition: transform 0.3s ease;
+      position: relative;
+    }
+
+    .section:hover {
+      transform: scale(1.02);
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: #fefefe;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #d6eaf8;
+      color: #154360;
+    }
+
+    .highlight {
+      background-color: #eafaf1;
+    }
+
+    img, video {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* Элементы декора */
+    .decor-circle {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.3);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      z-index: -1;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    .circle1 {
+      width: 150px;
+      height: 150px;
+      top: -60px;
+      left: -60px;
+    }
+
+    .circle2 {
+      width: 100px;
+      height: 100px;
+      bottom: -50px;
+      right: -30px;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="decor-circle circle1"></div>
+    <div class="decor-circle circle2"></div>
+
+    <h1>Индивидуальный проект: Google-сайт</h1>
+
+    <div class="section">
+      <h2>1. Понятие мультимедиа</h2>
+      <img src="image.png" alt="Облако слов">
+      <p><a href="https://docs.google.com/document/d/1M_00d6PfxNHlkbjn-3MXEt-8Qjw_Rv2g/edit?usp=drivesdk&ouid=100181781771014445852&rtpof=true&sd=true">Глоссарий</a></p>
+    </div>
+
+    <div class="section">
+      <h2>2. Аппаратные средства мультимедиа</h2>
+      <p><a href="pres.pptx">Презентация по аппаратным средствам</a></p>
+    </div>
+
+    <div class="section">
+      <h2>3. Программные средства мультимедиа</h2>
+      <img src="cluster.png" alt="Кластер программных средств">
+    </div>
+
+    <div class="section">
+      <h2>4. Работа с графикой</h2>
+      <table>
+        <tr class="highlight">
+          <th>On-line графический редактор</th>
+          <th>Обучающая презентация</th>
+          <th>Пример работы</th>
+        </tr>
+        <tr>
+          <td>Drawi</td>
+          <td><a href="tutor_drawi.jpg">Презентация Drawi</a></td>
+          <td><a href="dravi.jpg">Пример рисунка</a></td>
+        </tr>
+        <tr>
+          <td>Brushster</td>
+          <td><a href="tutor_brushster.jpg">Презентация Brushster</a></td>
+          <td><a href="brushster.jpg">Пример рисунка</a></td>
+        </tr>
+        <tr>
+          <td>Pixiclip</td>
+          <td><a href="tutor_pixiclip.jpg">Презентация Pixiclip</a></td>
+          <td><a href="pixeclip.jpg" target="_blank">Пример рисунка</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>5. Обработка звука и видео</h2>
+      <video controls>
+        <source src="movie.mp4" type="movie/mp4">
+        Ваш браузер не поддерживает видео.
+      </video>
+    </div>
+
+    <div class="section">
+      <h2>6. Полезные ресурсы</h2>
+      <p>Вебмикс с каталогом мультимедийных ресурсов: <a href="https://www.symbaloo.com/mix/multimedia-resources" target="_blank">Symbaloo</a></p>
+      <p>Ссылки на интернет-источники по дисциплине:</p>
+      <ul>
+        <li><a href="https://skyeng.ru/magazine/wiki/it-industriya/chto-takoe-multimedia/" target="_blank">Skyeng</a></li>
+        <li><a href="https://satworld.ru/multimedia/articles/478-multimedia-kratkij-slovar-terminov.html" target="_blank">Satworld</a></li>
+        <li><a href="https://dic.academic.ru/dic.nsf/efremova/276787/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0" target="_blank">Academic</a></li>
+        <li><a href="https://digitalocean.ru/n/chto-takoe-multimedia" target="_blank">Digitalocean</a></li>
+        <li><a href="https://infourok.ru/prezentaciya-programmnye-sredstva-multimedia-7638127.html" target="_blank">infourok</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
